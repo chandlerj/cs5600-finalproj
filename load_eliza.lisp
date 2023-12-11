@@ -10,7 +10,7 @@ bugs to vladimir kulyukin in canvas
 
 ;;; change this parameter as needed.
 (defparameter *eliza-path* 
-  "/home/chandler/Documents/cs5600/CS5600-finalproj/")
+  "/home/chandler/Documents/cs5600-finalproj/")
 
 ;;; the files that comprise ELIZA.
 (defparameter *eliza-files* 

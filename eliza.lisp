@@ -74,7 +74,7 @@ Bugs to vladimir kulyukin in canvas
     (((?* ?x) computer (?* ?y))
      (Please be as specific as you can about the issue you are experiencing.)
      (It looks like you are talking about computers.) 
-     (This might be outside of the scope of my knowledge.
+     (This might be outside of the scope of my knowledge.)
      )
     
     (((?* ?x) update (?* ?y))
@@ -95,11 +95,11 @@ Bugs to vladimir kulyukin in canvas
 
 
     (((?* ?x) how do i uninstall (?* ?y))
-     (to uninstall ?y you will need to use the dnf package manager through the terminal. to open the terminal press the super key. you may know this key as the windows key. after pressing the super key the gnome launchpad will appear and from here you type terminal and press enter. a terminal emulator will appear. we are now ready to uninstall ?y ! at this point type sudo dnf remove ?y and a prompt will appear to enter your administrator password. after typing your password a summary of what is going to be removed will print to the terminal. press y and then enter to uninstall ?y.)
+     (to uninstall ?y you will need to use the dnf package manager through the terminal. to open the terminal press the super key. you may know this key as the windows key. after pressing the super key the gnome launchpad will appear and from here you type terminal and press enter. a terminal emulator will appear. we are now ready to uninstall ?y ! at this point type sudo dnf remove ?y and a prompt will appear to enter your administrator password. after typing your password a summary of what is going to be removed will print to the terminal. press y and then enter to uninstall ?y )
      )
 
     (((?* ?x) how do i remove (?* ?y))
-     (to uninstall ?y you will need to use the dnf package manager through the terminal. to open the terminal press the super key. you may know this key as the windows key. after pressing the super key the gnome launchpad will appear and from here you type terminal and press enter. a terminal emulator will appear. we are now ready to uninstall ?y ! at this point type sudo dnf remove ?y and a prompt will appear to enter your administrator password. after typing your password a summary of what is going to be removed will print to the terminal. press y and then enter to uninstall ?y.)
+     (to uninstall ?y you will need to use the dnf package manager through the terminal. to open the terminal press the super key. you may know this key as the windows key. after pressing the super key the gnome launchpad will appear and from here you type terminal and press enter. a terminal emulator will appear. we are now ready to uninstall ?y ! at this point type sudo dnf remove ?y and a prompt will appear to enter your administrator password. after typing your password a summary of what is going to be removed will print to the terminal. press y and then enter to uninstall ?y )
      )
 
     (((?* ?x) wifi (?* ?y))
@@ -107,11 +107,42 @@ Bugs to vladimir kulyukin in canvas
      )
     
     (((?* ?x) printer (?* ?y))
-     (to add a printer you will need to access gnome-settings. to open gnome settings navigate your mouse to the top right corner of the screen and click on the system menu. the system menu has icons like the clock and internet connection status. after clicking the system menu select the gear icon that appears. gnome-settings will now open. on the left side of the settings window select the printer button. the printer settings should now be open. select the lock in the bottom right corner of the window and then enter your administrator password. after unlocking this panel simply select add printer. if your printer is on the same network as your computer it will appear in the list of avialable printers. select your printer and add it to the list of avialable printers. this printer should now be available to use across the entire operating system)
+     (to add a printer you will need to access gnome-settings. to open gnome settings navigate your mouse to the top right corner of the screen and click on the system menu. the system menu has icons like volume and internet connection status. after clicking the system menu select the gear icon that appears. gnome-settings will now open. on the left side of the settings window select the printer button. the printer settings should now be open. select the unlock button on the top of the window and then enter your administrator password. after unlocking this panel simply select add printer. if your printer is on the same network as your computer it will appear in the list of avialable printers. select your printer and add it to the list of avialable printers. this printer should now be available to use across the entire operating system)
      )
 
-   (((?* ?x) use the internet (?* ?y))
-    (to access the internet on fedora linux you can use the included firefox web browser. to open firefox press the super key on your keyboard. from here the gnome spotlight view will open. type firefox and select the firefox web browser icon that appears. you are now ready to browse the web.)
+   (((?* ?x) wallpaper (?* ?y))
+    (to change your wallpaper you will need to access gnome-settings. to open gnome settings navigate your mouse to the top right corner of the screen and click on the system menu. the system menu has icons like volume and internet connection status. after clicking the system menu select the gear icon that appears. gnome-settings will now open. from here select the appearance button located on the left panel. You can now change your wallpaper to one of the gnome defaults or add your own photo by selecting the add photo option.)
+    )
+
+   (((?* ?x) dark mode (?* ?y))
+    (to change your system to dark theme you will need to access gnome-settings. to open gnome settings navigate your mouse to the top right corner of the screen and click on the system menu. the system menu has icons like volume and internet connection status. after clicking the system menu select the gear icon that appears. gnome-settings will now open. from here select the appearance button located on the left panel. in the center of this screen you will see the options for dark theme or light theme.) 
+    )
+
+   (((?* ?x) dark theme (?* ?y))
+    (to change your system to dark theme you will need to access gnome-settings. to open gnome settings navigate your mouse to the top right corner of the screen and click on the system menu. the system menu has icons like volume and internet connection status. after clicking the system menu select the gear icon that appears. gnome-settings will now open. from here select the appearance button located on the left panel. in the center of this screen you will see the options for dark theme or light theme.) 
+    )
+
+   (((?* ?x) youtube (?* ?y))
+    (youtube videos do not work out of the box so you will need to install additional software. fedora by default does not include this software to respect your privacy as the additional software requires surrendering some of your privacy on the internet. to install these packages you must add the rpmfusion package repository to your system. to do this open the terminal by pressing the super key and typing terminal in the search box that appears. from here navigate to rpmfusion.org/configuration on your web browser. copy and paste the fedora with dnf terminal command into your terminal. after doing this install the additional software by typing sudo dnf swap ffmpeg-free ffmpeg. open and close your web browser and you should now be able to watch youtube videos.)
+    )
+
+
+   (((?* ?x) add user (?* ?y))
+    (to add an additional user you will need to access gnome-settings. to open gnome settings navigate your mouse to the top right corner of the screen and click on the system menu. the system menu has icons like volume and internet connection status. after clicking the system menu select the gear icon that appears. gnome-settings will now open. from here select the users icon on the left side of the window. now click the unlock button and enter your administrator password. after unlocking this panel scroll to the bottom of the window to the other users section and select add user. you will now be able to add details about the new user. it is only recommended to add the new user as an administrator if necessary.)
+    )
+
+
+   (((?* ?x) take a photo (?* ?y))
+    (to take a photo with your webcam press the super key on the keyboard and type in cheese. this will open the cheese application which is used to take photos from the webcam.)
+    )
+
+
+   (((?* ?x) screenshot (?* ?y))
+    (to take a screenshot navigate your mouse to the top right corner of the screen and click on the system menu. the system menu has icons like volume and internet connection status. after clicking the system menu select the camera icon that appears. this will open the screenshot interface and from here you will be able to take a screenshot of your screen.)
+    )
+
+   (((?* ?x) office (?* ?y))
+    (fedora does not support microsoft office but it comes with an equivilent software called libreoffice. to access libreoffice press the super key on the keyboard and then type libreoffice. this will allow you to select between writter which is equivilent to word or calc which is the same as excell or impress which is a free version of powerpoint.)
     )
 
    (((?* ?x) use the internet (?* ?y))
